@@ -1,0 +1,103 @@
+Microsoft Windows [Version 10.0.22621.2428]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat>npm install -g npm@latest
+
+changed 14 packages in 5s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat>npx create-next-app@latest genai
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like to use `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to customize the default import alias (@/*)? ... No / Yes
+Creating a new Next.js app in C:\Users\vinod\OneDrive\Desktop\chatgpt\chat\genai.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- autoprefixer
+- postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+
+
+added 330 packages, and audited 331 packages in 9m
+
+116 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Success! Created genai at C:\Users\vinod\OneDrive\Desktop\chatgpt\chat\genai
+
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat>code
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat>npm install usellm
+
+added 1 package, and audited 64 packages in 3s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat>npm run dev
+npm ERR! Missing script: "dev"
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: C:\Users\vinod\AppData\Local\npm-cache\_logs\2023-11-10T09_31_26_631Z-debug-0.log
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat>cd genai
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat\genai>code .
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat\genai>npm install usellm
+
+added 1 package, and audited 332 packages in 2s
+
+116 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\vinod\OneDrive\Desktop\chatgpt\chat\genai>npm run dev
+
+> genai@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.0.2
+   - Local:        http://localhost:3000
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 12.9s
+ ○ Compiling / ...
+(node:7312) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled / in 5.7s (483 modules)
+ ✓ Compiled in 284ms (231 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1732ms (488 modules)

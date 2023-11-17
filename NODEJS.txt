@@ -1,0 +1,11 @@
+NODEJS
+
+CRUD 
+*Get(html page)
+*post(login)-to create a new one
+*put-update
+*delete
+
+Middle vare
+app.use(func)
+

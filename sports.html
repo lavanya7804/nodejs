@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Universe</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #1e272e;
+            padding: 1em;
+            color: white;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .event {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .event:hover {
+            transform: scale(1.05);
+        }
+
+        .event img {
+            width: 20%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .event-content {
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sports Universe</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Football</a>
+        <a href="#">Basketball</a>
+        <a href="#">Tennis</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Sports Universe</h2>
+        <p>Explore the latest sports events and news.</p>
+
+        <h2>Upcoming Events</h2>
+
+        <div class="event">
+            <img src="https://th.bing.com/th/id/OIP.EEJ8RtcBhibF94WWIlC0SwHaHa?rs=1&pid=ImgDetMain" alt="Football Event">
+            <div class="event-content">
+                <h3>Football Match: Team A vs. Team B</h3>
+                <p>Don't miss the thrilling football match between Team A and Team B. Get your tickets now!</p>
+            </div>
+        </div>
+
+        <div class="event">
+            <img src="https://th.bing.com/th/id/OIP.RRMgeBmjqQoK2wIM13PFvQAAAA?rs=1&pid=ImgDetMain" alt="Basketball Event">
+            <div class="event-content">
+                <h3>Basketball Game: Team X vs. Team Y</h3>
+                <p>Cheer for your favorite basketball team as Team X takes on Team Y in an exciting showdown.</p>
+            </div>
+        </div>
+
+        <!-- Add more sports events as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Sports Universe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

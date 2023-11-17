@@ -1,0 +1,11 @@
+
+
+node -v
+npm-v
+
+
+npm install -g npm@10.2.3
+npx create-next-app@latesgt chatgptproject
+
+react hooks for large language models
+
